@@ -1,0 +1,32 @@
+{
+  "name": "handmade-spa",
+  "version": "1.0.0",
+  "description": "Single page application without frameworks",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioSalinas1605/handmade-spa.git"
+  },
+  "keywords": [
+    "spa",
+    "js"
+  ],
+  "author": "Mario Salinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioSalinas1605/handmade-spa/issues"
+  },
+  "homepage": "https://github.com/MarioSalinas1605/handmade-spa#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
